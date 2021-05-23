@@ -9,10 +9,10 @@ import css from './index.module.css';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Provider store={store.store}>
-      <PersistGate loading={null} persistor={store.persistor}>
+    <Provider store={store/* .store */}>
+      {/* <PersistGate loading={null} persistor={store.persistor}> */}
         <App className = {css}/>
-      </PersistGate>
+      {/* </PersistGate> */}
     </Provider>
   </React.StrictMode>,
   document.getElementById('root'),

@@ -1,5 +1,5 @@
 //согласно требованиям - Шаг 1
-/* import {
+import {
   configureStore,
   getDefaultMiddleware,
 } from '@reduxjs/toolkit';
@@ -43,10 +43,10 @@ const store = configureStore({
 
 const persistor = persistStore(store);
 
-export default { store, persistor }; */
+export default { store, persistor };
 
 //согласно требованиям - Шаг 1
-import { createStore, combineReducers } from 'redux';
+/* import { createStore, combineReducers } from 'redux';
 import { composeWithDevTools } from 'redux-devtools-extension';
 import contactsReducer from './contacts/contacts-reducer';
 
@@ -56,5 +56,5 @@ const rootReducer = combineReducers({
 
 const store = createStore(rootReducer, composeWithDevTools());
 
-export default store;
+export default store; */
 
